@@ -21,4 +21,4 @@ contains the implementation of 8 AE architectures used for TCGA datasets in this
 contains the auxiliary code accompanying the models used for the TCGA dataset. 
 
 ### AE model architectures implemented in this study
-![CircCNN Base models](Images/AE_models.png)
+![AE models](Images/AE_models.png)
