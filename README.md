@@ -12,7 +12,7 @@ contains the implementation of 8 AE architectures used for simulation datasets i
 contains the auxiliary code accompanying the models used for the simulation dataset. 
 
 ### The TCGA_Data:
-contains the pre-processed TCGA datasets of 6 primary cancer types used to compare the 8 AE architectures implemented in this study and the JIVE model.
+contains the pre-processed TCGA datasets of 6 primary cancer types downloaded from https://acgt.cs.tau.ac.il/multi_omic_benchmark/download.html.
 
 ### The TCGA_Models:
 contains the implementation of 8 AE architectures used for TCGA datasets in this study.
