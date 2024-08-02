@@ -23,11 +23,10 @@ contains the auxiliary code accompanying the models used for the TCGA dataset.
 ### AE model architectures implemented in this study
 ![AE models](Images/AE_models.png)
 
-Fig. Different AE model structures compared in this study. a): AE with direct X1, and X2 concatenated together as the model input, referred as CNC_AE;
-b): AE with processed X1, X2 concatenated together as the model input, referred as X_AE; c): AE with different concatenation of processed X1, X2 as
-the model input, referred to as MM_AE; d): AE structure from previous study with orthogonal constraints imposed during the post-processing, referred
-as MOCSS; e): AE with both individual and concatenated X1, X2 as the model input with additional imposed orthogonal constraints, referred to as
-Ortho_AE; f): similarly to model in e) without additional orthogonal constraints, referred to as NonOrtho_AE.
-
+Different AE model structures compared in this study. a): AE with direct X1, X2 concatenated together as the model input, referred as CNC AE;
+b): AE with processed X1, X2 concatenated together as the model input, referred as X AE; c): AE with different concatenation of processed X1, X2 as
+the model input, referred as MM AE; d): AE structure from previous study with orthogonal constraints imposed during the post-processing, referred
+as MOCSS [2]; e): AE with both individual and concatenated X1, X2 as the model input with addition imposed orthogonal constraints, referred as
+JISAE-O; f): similarly to model in e) without additional orthogonal constraints, referred as JISAE.
 
 
