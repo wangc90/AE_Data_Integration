@@ -1,5 +1,15 @@
 # Auto encoders with shared and specific embeddings for multi-omic data integration
 
+## How to replicate the results for the simulation data analysis:
+
+Within the Simulation_Models folder, model selection and retraining codes are included for 8 different AE architectures. 
+
+For example, to select the optimal hyperparameters for the CNC_AE model with the simulation data, simply run the CNC_AE_model_selection.py (You should install the necessary Python packages before importing them and change the folder path accordingly). The first part of the code defines the CNC_AE model structure with CNC_Encoder and CNC_Decoder as well as the CNC_AE block that uses the CNC_Encoder and CNC_Decoder. Following the model structure, we define the custom loss for the CNC_AE model. We then defined the model training step (Objective_CV) that uses the Objective function defined earlier to minimize the loss function and return the averaged loss on the validation set. We also created the pytorch tensor Dataset that is specific for the simulation data training. Finally, the CNC_AE_model_selection function is called to run 50 Optuna trials to select the optimal hyperparameter sets corresponding to the lowest averaged reconstruction loss. 
+
+Once the optimal hyperparameter set is selected, we can then fix these hyperparameters and retrain the model on the entire training set to obtain the trained model that is eventually used for model evaluation (i.e., calculate the reconstruction loss and extract the embedding for subsequent classification task). To retrain the model, simply run the CNC_AE_retraining.py which automatically loads the saved optimal hyperparameter sets for retraining. This Python script will save the retrained model weights locally for subsequent model evaluation.
+
+The Simulation_Auxiliary folder contains part of the code from the MOCSS paper that we utilized in model_selection and model_retraining.  
+
 ## Organization of this Repository
 
 ### The Simulation_Data:
