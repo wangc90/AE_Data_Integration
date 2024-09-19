@@ -1,6 +1,6 @@
 # Auto encoders with shared and specific embeddings for multi-omic data integration
 
-## How to replicate the results for the simulation data analysis:
+## How to replicate the results (/e.g.,on simulation data):
 
 Within the Simulation_Models folder, model selection and retraining codes are included for 8 different AE architectures. 
 
