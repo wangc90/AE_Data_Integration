@@ -1,5 +1,8 @@
 # Auto encoders with shared and specific embeddings for multi-omic data integration
 
+## How to replicate the results
+
+
 ## Organization of this Repository
 
 ### The Simulation_Data:
