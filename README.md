@@ -12,6 +12,8 @@ Note, to run the above CNC_AE_model_selection.py and CNC_AE_retraining.py, you n
 
 To evaluate the model performance, follow the AE_results.ipynb within Evaluation_Auxiliary folder and make sure to import the necessary auxiliary codes from the Evaluation_Auxiliary folder.
 
+## To replicate the results for TCGA data, follow the above step and use the corresponding TCGA dataset and TCGA model folder.
+
 ## Organization of this Repository
 
 ### The Simulation_Data:
