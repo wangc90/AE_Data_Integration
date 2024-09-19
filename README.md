@@ -8,7 +8,9 @@ For example, to select the optimal hyperparameters for the CNC_AE model with the
 
 Once the optimal hyperparameter set is selected, we can then fix these hyperparameters and retrain the model on the entire training set to obtain the trained model that is eventually used for model evaluation (i.e., calculate the reconstruction loss and extract the embedding for subsequent classification task). To retrain the model, simply run the CNC_AE_retraining.py which automatically loads the saved optimal hyperparameter sets for retraining. This Python script will save the retrained model weights locally for subsequent model evaluation.
 
-The Simulation_Auxiliary folder contains part of the code from the MOCSS paper that we utilized in model_selection and model_retraining.  
+The Simulation_Auxiliary folder contains part of the code from the MOCSS paper that we utilized in model_selection and model_retraining.
+
+To evaluate the model performance, follow the AE_results.ipynb and make sure to import the necessary auxiliary codes from the Evaluation_Auxiliary folder.
 
 ## Organization of this Repository
 
@@ -29,6 +31,9 @@ contains the implementation of 8 AE architectures used for TCGA datasets in this
 
 ### TCGA_Auxiliary
 contains the auxiliary code accompanying the models used for the TCGA dataset. 
+
+### Evaluation_Auxiliary
+contains the auxiliary code accompanying the model evaluation jupyternotebook: AE_results.ipynb
 
 ### AE model architectures implemented in this study
 ![AE models](Images/AE_models.png)
