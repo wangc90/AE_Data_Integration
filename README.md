@@ -10,7 +10,7 @@ Once the optimal hyperparameter set is selected, we can then fix these hyperpara
 
 The Simulation_Auxiliary folder contains part of the code from the MOCSS paper that we utilized in model_selection and model_retraining.
 
-To evaluate the model performance, follow the AE_results.ipynb and make sure to import the necessary auxiliary codes from the Evaluation_Auxiliary folder.
+To evaluate the model performance, follow the AE_results.ipynb within Evaluation_Auxiliary folder and make sure to import the necessary auxiliary codes from the Evaluation_Auxiliary folder.
 
 ## Organization of this Repository
 
