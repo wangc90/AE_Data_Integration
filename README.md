@@ -9,7 +9,7 @@ seaborn<br />
 rpy2.ipython<br />
 
 ## Required Python scripts to run the AE_results.ipynb in the Evaluation_Auxiliary folder
-download these scripts from Evaluation_Auxiliary folder to access them 
+download these scripts from Evaluation_Auxiliary folder to access them <br />
 Data_prep.py<br />
 tsn_visulization.py<br />
 reconloss_from_retrained_models.py<br />
