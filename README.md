@@ -10,26 +10,26 @@ rpy2.ipython<br />
 
 ## Required Python scripts to run the AE_results.ipynb in the Evaluation_Auxiliary folder
 download these scripts from Evaluation_Auxiliary folder to access them 
-Data_prep.py
-tsn_visulization.py
-reconloss_from_retrained_models.py
-embedding_from_retrained_models.py
-nb_classification.py
-model_structures.py
+Data_prep.py<br />
+tsn_visulization.py<br />
+reconloss_from_retrained_models.py<br />
+embedding_from_retrained_models.py<br />
+nb_classification.py<br />
+model_structures.py<br />
 
 ## Required R library to replicate the figures in the AE_results.ipynb
-tidyr
-dplyr
-ggplot2
-ggsci
-scales
-RColorBrewer
-pheatmap
-ggpubr
+tidyr<br />
+dplyr<br />
+ggplot2<br />
+ggsci<br />
+scales<br />
+RColorBrewer<br />
+pheatmap<br />
+ggpubr<br />
 
 ## Required Code from MOCSS paper
 download the folder from Simulation_Auxiliary or TCGA_Auxiliary/code: these folders contain the codes from MOCSS paper that are used in this study
-point the python path to this folder to access these code
+point the python path to this folder to access these code<br />
 sys.path.insert(1, 'Simulation_Auxiliary')
 
 ## How to replicate the results (e.g.,on simulation data):
