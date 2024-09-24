@@ -1,12 +1,12 @@
 # Auto encoders with shared and specific embeddings for multi-omic data integration
 ## Required Python libraries to replicate this analysis:
-torch
-pandas
-numpy
-sklearn
-optuna
-seaborn
-rpy2.ipython
+torch<br />
+pandas<br />
+numpy<br />
+sklearn<br />
+optuna<br />
+seaborn<br />
+rpy2.ipython<br />
 
 ## Required Python scripts to run the AE_results.ipynb in the Evaluation_Auxiliary folder
 download these scripts from Evaluation_Auxiliary folder to access them 
