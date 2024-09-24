@@ -28,7 +28,7 @@ pheatmap<br />
 ggpubr<br />
 
 ## Required Code from MOCSS paper
-download the folder from Simulation_Auxiliary or TCGA_Auxiliary/code: these folders contain the codes from MOCSS paper that are used in this study
+download the folder from Simulation_Auxiliary or TCGA_Auxiliary/code: these folders contain the codes from MOCSS paper that are used in this study<br />
 point the python path to this folder to access these code<br />
 sys.path.insert(1, 'Simulation_Auxiliary')
 
